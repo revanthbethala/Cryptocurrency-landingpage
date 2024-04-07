@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.own {
+    @apply w-2/3 md:w-1/4 flex flex-col items-center justify-center gap-4 rounded-lg bg-slate-700  p-5 text-center hover:shadow-xl shadow-white cursor-pointer hover:-translate-y-3 ease-out duration-200;
+}
+.custom-btn{
+    @apply rounded-md border-2 border-white px-2 py-1 hover:-translate-y-1 ease-linear duration-100;
+}
+.custom-list{
+     @apply lg:hover:bg-sky-600 active:bg-sky-600  w-full rounded-lg ease-in duration-150 p-2 ;
+}
